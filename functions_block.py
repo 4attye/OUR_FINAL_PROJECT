@@ -77,7 +77,6 @@ def show_birthday(args, book):
 # forming a string of names of the persons, who should be congratulated and their respective birthday dates.
 def birthdays(book):
     str = ""
-
     if len(book.get_upcoming_birthdays()) != 0:
         for i in book.get_upcoming_birthdays():
             str += f"{i}\n"
